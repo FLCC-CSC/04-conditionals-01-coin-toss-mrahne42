@@ -1,7 +1,7 @@
 # FILE NAME - coin_toss.py
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Mike Rahne
+# DATE: 10/6/2025 
+# BRIEF DESCRIPTION:  My coint_toss submission
 # 1. Make sure you fill out the comments above
 # 2. Write your code in the proper spot
 # 3. Be sure to answer the Reflection Questions and Attestation below
@@ -9,7 +9,25 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 
+import random
 
+def main():
+    c_t_attempt()
+def c_t_attempt():
+
+
+                print ('===== Coin Flipper =====')
+
+                random.seed()
+                coin_flip = str(random.randint (1,2))
+                
+
+                if (coin_flip) == ('2'):
+                    print('Tails')
+                else:
+                   print('Heads')
+
+main()
 
 
 
@@ -43,7 +61,7 @@ Tails
 '''
 
 1. What was the hardest part of completing this lab? 
-
+#I founf the most difficult par to be figuring out that I had to cast "coin_flip". I think I have a amental blobk on "str". I really need to get over that.
 
 
 
